@@ -7,6 +7,6 @@ int main() {
 		scanf("%d %d %f", &cod, &number, &price);
 		total += number*price;
 	}
-	printf("VALOR A PAGAR = R$ %.2f\n", total);
+	printf("VALOR A PAGAR: R$ %.2f\n", total);
 	return 0;
 }
